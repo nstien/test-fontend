@@ -12,7 +12,9 @@
     <script>
         const inputFile = document.querySelector('input')
         const imgFile = document.querySelector('img')
-        console.log(inputFile)
+        inputFile.onchange = function(e) {
+            console.log(e.target)
+        }
 
     </script>
 </body>
